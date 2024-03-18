@@ -21,7 +21,7 @@ El siguiente proyecto es una prueba para la oferta de desarrollador fullstack. C
 │   ├── server
 │   ├── client
 ├── scripts
-│   ├── init.sql
+│   ├── skylinedbit.sql
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
@@ -41,7 +41,7 @@ Para ejecutar la aplicación es necesario que realize unas configuraciones previ
 2. Clonar el proyecto: `git clone https://github.com/chrisjosuedev/skyline-app.git` (Omitir este paso si cuenta con el .zip del proyecto)
 3. Entrar a la carpeta raiz del proyecto:
    `cd skyline-app`
-4. En la carpeta root del proyecto `/skylinedb.sql` se encuentra el script sql que contiene la creación de la base de datos, asi como la tabla principal y algunos datos. Ejecute el script de dicha carpeta ya sea vía `mysql -u <su_usuario> -p` y `source skylinedb.sql` o mediante su GUI favorito (Ej. Workbench)
+4. En la carpeta `/scripts/skylinedb.sql` se encuentra el script sql que contiene la creación de la base de datos, asi como la tabla principal y algunos datos. Ejecute el script de dicha carpeta ya sea vía `mysql -u <su_usuario> -p` y `source /scripts/skylinedb.sql` o mediante su GUI favorito (Ej. Workbench)
 5. Si clonó el proyecto desde git, instalar los módulos de node vía `npm install` en la carpeta root del proyecto `.../skyline-app`.
 
 > Configuración de credenciales de la base de datos:
