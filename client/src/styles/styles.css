@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.btn-sidebar:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}
+
+
+.side-active {
+  background-color: rgb(240, 240, 240);
+}
