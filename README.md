@@ -18,7 +18,7 @@ El siguiente proyecto es una prueba para la oferta de desarrollador fullstack. C
 ```bash
 ├── node_modules
 ├── apps
-│   ├── api
+│   ├── server
 │   ├── client
 ├── scripts
 │   ├── init.sql
